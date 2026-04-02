@@ -1,5 +1,10 @@
 # mcp-server-subito
 
+[![npm version](https://img.shields.io/npm/v/mcp-server-subito)](https://www.npmjs.com/package/mcp-server-subito)
+[![npm downloads](https://img.shields.io/npm/dm/mcp-server-subito)](https://www.npmjs.com/package/mcp-server-subito)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Node.js](https://img.shields.io/node/v/mcp-server-subito)](https://nodejs.org)
+
 An MCP (Model Context Protocol) server for searching and browsing listings on [subito.it](https://www.subito.it), Italy's largest classified ads marketplace.
 
 > **For testing and educational purposes only.** See [Legal and Ethical Considerations](#legal-and-ethical-considerations) before use.
@@ -47,10 +52,6 @@ With `--ignore-robots-txt` enabled (required for multi-page scans):
 ### Cursor
 
 Go to **Cursor Settings → Tools & Integrations → New MCP Server** and use the same configuration as above.
-
-### Via Smithery
-
-Install directly from [Smithery](https://smithery.ai/server/mcp-server-subito) with one click — no manual configuration needed.
 
 ## Tools
 
