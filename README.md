@@ -23,7 +23,7 @@ An MCP (Model Context Protocol) server for searching and browsing listings on su
 
 ### Local AI Agents
 
-Add the following to your `claude_desktop_config.json`:
+Add the following to your `claude_desktop_config.json` or other config files:
 
 ```json
 {
