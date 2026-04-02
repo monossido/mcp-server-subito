@@ -1,0 +1,64 @@
+{
+  "name": "mcp-server-subito",
+  "version": "1.0.0",
+  "description": "MCP server for searching and browsing listings on subito.it. For testing and educational purposes only. Use responsibly and in compliance with subito.it Terms of Service.",
+  "type": "module",
+  "main": "./build/index.js",
+  "bin": {
+    "mcp-server-subito": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "prepare": "npm run build",
+    "start": "node build/index.js --ignore-robots-txt",
+    "dev": "tsc --watch",
+    "test": "npm run build && node --test test/*.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "subito",
+    "subito.it",
+    "marketplace",
+    "scraper",
+    "listings",
+    "italy",
+    "classified-ads"
+  ],
+  "author": {
+    "name": "Lorenzo Braghetto",
+    "email": "monossido@lorenzobraghetto.com",
+    "url": "https://github.com/monossido"
+  },
+  "license": "AGPL-3.0-only",
+  "homepage": "https://github.com/monossido/mcp-server-subito",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monossido/mcp-server-subito.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monossido/mcp-server-subito/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "cheerio": "^1.0.0",
+    "robots-parser": "^3.0.1",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
