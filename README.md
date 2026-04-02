@@ -5,7 +5,7 @@
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Node.js](https://img.shields.io/node/v/mcp-server-subito)](https://nodejs.org)
 
-An MCP (Model Context Protocol) server for searching and browsing listings on [subito.it](https://www.subito.it), Italy's largest classified ads marketplace.
+An MCP (Model Context Protocol) server for searching and browsing listings on subito.it, Italy's largest classified ads marketplace.
 
 > **For testing and educational purposes only.** See [Legal and Ethical Considerations](#legal-and-ethical-considerations) before use.
 
