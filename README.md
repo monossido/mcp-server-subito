@@ -19,6 +19,8 @@ An MCP (Model Context Protocol) server for searching and browsing listings on su
 - robots.txt compliance by default
 - Built-in rate limiting
 
+![Screenshot](https://github.com/user-attachments/assets/778ac2c3-9ca0-4ea4-9e89-2a140bf21113)
+
 ## Installation
 
 ### Local AI Agents
