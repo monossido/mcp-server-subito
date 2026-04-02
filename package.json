@@ -1,6 +1,6 @@
 {
   "name": "mcp-server-subito",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for searching and browsing listings on subito.it. For testing and educational purposes only. Use responsibly and in compliance with subito.it Terms of Service.",
   "type": "module",
   "main": "./build/index.js",
